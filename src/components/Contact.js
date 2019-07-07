@@ -6,7 +6,8 @@ import './Contact.css';
 function Contact(props) {
   return (
     <div className="contact">
-      <span>{props.name}</span>
+      <p>Name: {props.name}</p>
+      <p>Email: {props.email}</p>
     </div>
   );
 }
